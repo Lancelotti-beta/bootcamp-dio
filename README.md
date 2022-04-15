@@ -2,6 +2,9 @@
 
 Bootcamp Carrefour Web Developer - DIO  (Digital Innovation One)
 
+[linkedin](linkedin.com/in/bruno-jos%C3%A9-marques-da-silva-8a432316b/)
+
+
 ## Módulo I
 
 Conteúdo de abertura
