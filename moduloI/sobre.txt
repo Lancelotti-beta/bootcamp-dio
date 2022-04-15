@@ -1,0 +1,6 @@
+ Neste primeiro módulo, sendo mais focado no teorico, estudamos 
+sobre o SCRUM e suas metodolias, como é usado para agilizar 
+processos; Lógica de programação e pensamento computacional, para 
+desenvolver software e criar aplicações para a web; Uma breve introdução 
+ao Git e GitHub, suas diferças e comandos até crar o primeiro repositório
+na pratica.
