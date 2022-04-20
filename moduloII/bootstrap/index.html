@@ -14,9 +14,10 @@
 </head>
 
 <body>
+    <!-- NAVBAR -->
     <header>
         <div class="container-color">
-            <nav class="navbar navbar-expand-lg navbar-light limite">
+            <nav class="navbar navbar-expand-lg navbar-light limite-navbar">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="img/logo.png" alt="Logo da barbearia" height="140" />
@@ -25,13 +26,13 @@
                     <div class="collapse navbar-collapse">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Produtos</a>
+                                <a class="nav-link" href="#produtos">Produtos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contato</a>
+                                <a class="nav-link" href="#contato">Contato</a>
                             </li>
                         </ul>
 
@@ -43,35 +44,223 @@
 
         </div>
     </header>
+
+    <!-- BANNER -->
     <img src="img/banner.jpg" alt="Imagem da barbearia" class="banner" />
 
-    <section id="Home" class="home-color">
+    <!-- SOBRE -->
+    <section id="home" class="home-color">
         <div class="limite">
-            <h2 class="display-6">Teste</h2>
-            <p class="lead">
-                This is a lead paragraph. It stands out from regular paragraphs.
+            <h2 class="display-3 text-center home-title">Sobre</h2>
+            <p class="lead home-text-start">
+                Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de
+                melhor para o seu cabelo e barba.
+                Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia
             </p>
-            <p class="lead">
-                This is a lead paragraph. It stands out from regular paragraphs.
+            <p class="lead home-text"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos
+                        clientes"</strong>.</em>
+            </p>
+            <p class="lead home-text-end">
+                Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui
+                padrão de excelência
+                e agilidade, garantindo qualidade e satisfação dos nossos clientes.
             </p>
         </div>
-
-    </section>
-    <section id="Produtos" class="produtos-color">
         <div class="limite">
-            <h2 class="display-6">Produtos</h2>
+            <h3 class="display-6 text-center home-subtitle">Nosso estabelecimento</h3>
+            <p class="text-center home-text-subtitle">Nosso estabelecimento está localizado no coração da cidade.</p>
+
+            <div class="home-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58503.19744076339!2d-46.66735082089845!3d-23.5881948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1643650005885!5m2!1spt-BR!2sbr"
+                    allowfullscreen="" loading="lazy" class="home-map__iframe">
+                </iframe>
+
+            </div>
+
         </div>
 
     </section>
-    <section id="Contato" class="contato-color">
-        <div class="limite">
-            <h2 class="display-6">Contato</h2>
+
+    <!-- BENEFÍCIOS -->
+    <section class="home-color__beneficio">
+        <div class="limite container-fluid">
+            <h3 class="display-6 text-center home-beneficio-subtitle">
+                Benefícios
+            </h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 home-beneficio-diferencas">
+                        <ul class="text-center">
+                            <li class="text-start">Atendimeto aos clientes</li>
+                            <li class="text-start">Espaço diferenciado</li>
+                            <li class="text-start">Localização</li>
+                            <li class="text-start">Profissionas qualificados</li>
+                            <li class="text-start">Pontualidade</li>
+                            <li class="text-start">Limpeza</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="img/beneficios.jpg" class="rounded float-end home-beneficio__img"
+                            alt="Imagem de um corte de cabelo" />
+        
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="home-beneficio-video">
+                <iframe class="home-beneficio__iframe-video" src="https://www.youtube.com/embed/wcVVXUV0YUY"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section id="produtos" class="produtos-color">
+        <div class="limite container-fluid">
+            <h2 class="display-3 text-center produtos-title">Produtos</h2>
+            
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col card-space">
+                    <div class="card h-100 card-borda">
+                        <img class="card-img-top" src="img/cabelo.jpg" alt="Corte de cabelo">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Cabelo</h2>
+                            <p class="card-text text-center">Na tesoura ou máquina, como o cliente preferir.</p>
+                            <p class="text-center">R$ 25,00</p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col card-space">
+                    <div class="card h-100 card-borda">
+                        <img class="card-img-top" src="img/barba.jpg" alt="corte de barba">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Barba</h2>
+                            <p class="card-text text-center">Corte e desenho profissional de barba.</p>
+                            <p class="text-center">R$ 18,00</p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col card-space">
+                    <div class="card h-100 card-borda">
+                        <img class="card-img-top" src="img/cabelo+barba.jpg" alt="Corte de cabelo e barba">
+                        <div class="card-body">
+                            <h2 class="card-title text-center">Cabelo + Barba</h2>
+                            <p class="card-text text-center">Pacote completo de cabelo e barba.</p>
+                            <p class="text-center">R$ 35,00</p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
         </div>
 
     </section>
 
+    <!-- CONTATO -->
+    <section id="contato" class="contato-color">
+        <div class="limite container-fluid">
+            <h2 class="display-3 text-center">Contato</h2>
+            <div class="container">
+                <form class="row">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" id="nome" class="form-control" placeholder="Nome" aria-label="Nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="sobreNome" class="form-label">Sobrenome</label>
+                        <input type="text" id="sobreNome" class="form-control" placeholder="Sobrenome"
+                            aria-label="Sobrenome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label">
+                            Telefone
+                        </label>
+                        <input type="tel" id="telefone" class="form-control" placeholder="(XX) XXXXX-XXXX" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">
+                            E-mail
+                        </label>
+                        <input type="email" id="email" class="form-control" placeholder="exemple@dominio.com" required>
+                    </div>
 
+
+
+                    <label for="mensagem" class="form-label">
+                        Mensagem
+                    </label>
+                    <textarea rows="3" id="mensagem" class="form-control"></textarea>
+
+
+                    <fieldset class="row">
+                        <legend>Como prefere o nosso contato?</legend>
+                        <div class="mb-4">
+                            <label for="radio-email">
+                                <input type="radio" name="contato" value="email" id="radio-email" checked>
+                                E-mail
+                            </label>
+                        </div>
+                        <div class="mb-4">
+                            <label for="radio-telefone">
+                                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                                Telefone
+                            </label>
+                        </div>
+                        <div class="mb-4">
+                            <label for="radio-whatsapp">
+                                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                                WhatsApp
+                            </label>
+                        </div>
+
+                    </fieldset>
+                    <div class="row">
+                        <div class="mb-6">
+                            <label class="checkbox">
+                                <input type="checkbox" checked>
+                                Gostaria de receber nossas promoçõe e novidades por e-mail?
+        
+                            </label>
+
+                        </div>
+                        <div class="mb-6">
+                            <input class="btn btn-primary btn-tamanho" type="submit" value="Enviar formulário">
+    
+                        </div>
+
+                    </div>
+
+
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- RODAPÉ -->
     <footer>
+        <div class="limite rodape-posicao">
+            <img class="rodape-img" src="img/logo-branco.png" alt="Logo em branco da barbearia Alura">
+            <p class="text-rodape-color">
+                &copy; Copyright Barbearia Alura - 2022
+            </p>
+
+        </div>
+
 
     </footer>
 
