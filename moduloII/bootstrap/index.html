@@ -17,26 +17,24 @@
     <!-- NAVBAR -->
     <header>
         <div class="container-color">
-            <nav class="navbar navbar-expand-lg navbar-light limite-navbar">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+            <nav class="container limite-navbar">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a class="d-flex align-items-center mb-2 mb-lg-0" href="#">
                         <img src="img/logo.png" alt="Logo da barbearia" height="140" />
                     </a>
 
-                    <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#produtos">Produtos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contato">Contato</a>
-                            </li>
-                        </ul>
 
-                    </div>
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link px-3 text-white" href="#home">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 text-white" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 text-white" href="#contato">Contato</a>
+                        </li>
+                    </ul>
 
                 </div>
 
@@ -51,20 +49,41 @@
     <!-- SOBRE -->
     <section id="home" class="home-color">
         <div class="limite">
-            <h2 class="display-3 text-center home-title">Sobre</h2>
-            <p class="lead home-text-start">
-                Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de
-                melhor para o seu cabelo e barba.
-                Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia
-            </p>
-            <p class="lead home-text"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos
-                        clientes"</strong>.</em>
-            </p>
-            <p class="lead home-text-end">
-                Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui
-                padrão de excelência
-                e agilidade, garantindo qualidade e satisfação dos nossos clientes.
-            </p>
+            <h2 class="display-1 text-center title">Sobre</h2>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img src="img/utensilios.jpg" class="sobre-img-tamanho rounded"
+                            alt="Imagem de utensilio de barbeiro">
+                        <p class="lead home-text">
+                            <em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos
+                                    clientes"</strong>.</em>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="lead home-text">
+                            Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que
+                            há de
+                            melhor para o seu cabelo e barba.
+                            Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada
+                            dia
+                        </p>
+
+                    </div>
+                    <div class="col-md-4">
+                        <p class="lead home-text">
+                            Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento
+                            possui
+                            padrão de excelência
+                            e agilidade, garantindo qualidade e satisfação dos nossos clientes.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
         </div>
         <div class="limite">
             <h3 class="display-6 text-center home-subtitle">Nosso estabelecimento</h3>
@@ -85,30 +104,71 @@
     <!-- BENEFÍCIOS -->
     <section class="home-color__beneficio">
         <div class="limite container-fluid">
-            <h3 class="display-6 text-center home-beneficio-subtitle">
+            <h3 class="display-3 text-center home-beneficio-subtitle">
                 Benefícios
             </h3>
-            <div class="container">
+            <div class="container beneficio-espacamento">
                 <div class="row">
-                    <div class="col-lg-6 home-beneficio-diferencas">
-                        <ul class="text-center">
-                            <li class="text-start">Atendimeto aos clientes</li>
-                            <li class="text-start">Espaço diferenciado</li>
-                            <li class="text-start">Localização</li>
-                            <li class="text-start">Profissionas qualificados</li>
-                            <li class="text-start">Pontualidade</li>
-                            <li class="text-start">Limpeza</li>
+                    <div class="col-lg-6 text-center">
+                        <ul>
+                            <li class="text-start ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                                </svg>
+                                Atendimeto aos clientes
+                            </li>
+                            <li class="text-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                                </svg>
+                                Espaço diferenciado
+                            </li>
+                            <li class="text-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                                </svg>
+                                Localização
+                            </li>
+                            <li class="text-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                                </svg>
+                                Profissionas qualificados
+                            </li>
+                            <li class="text-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                                </svg>
+                                Pontualidade
+                            </li>
+                            <li class="text-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                                </svg>
+                                Limpeza
+                            </li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
                         <img src="img/beneficios.jpg" class="rounded float-end home-beneficio__img"
                             alt="Imagem de um corte de cabelo" />
-        
 
                     </div>
                 </div>
             </div>
-            
+
             <div class="home-beneficio-video">
                 <iframe class="home-beneficio__iframe-video" src="https://www.youtube.com/embed/wcVVXUV0YUY"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -123,16 +183,23 @@
     <!-- PRODUTOS -->
     <section id="produtos" class="produtos-color">
         <div class="limite container-fluid">
-            <h2 class="display-3 text-center produtos-title">Produtos</h2>
-            
+            <h2 class="display-1 text-center title">Produtos</h2>
+
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col card-space">
                     <div class="card h-100 card-borda">
                         <img class="card-img-top" src="img/cabelo.jpg" alt="Corte de cabelo">
                         <div class="card-body">
-                            <h2 class="card-title text-center">Cabelo</h2>
-                            <p class="card-text text-center">Na tesoura ou máquina, como o cliente preferir.</p>
-                            <p class="text-center">R$ 25,00</p>
+                            <h2 class="card-title text-center display-6">Cabelo</h2>
+                            <p class="card-text text-center lead">Na tesoura ou máquina, como o cliente preferir.</p>
+                            <p class="h5 text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                                    <path
+                                        d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
+                                </svg>
+                                25,00
+                            </p>
 
                         </div>
 
@@ -142,9 +209,16 @@
                     <div class="card h-100 card-borda">
                         <img class="card-img-top" src="img/barba.jpg" alt="corte de barba">
                         <div class="card-body">
-                            <h2 class="card-title text-center">Barba</h2>
-                            <p class="card-text text-center">Corte e desenho profissional de barba.</p>
-                            <p class="text-center">R$ 18,00</p>
+                            <h2 class="card-title text-center display-6">Barba</h2>
+                            <p class="card-text text-center lead">Corte e desenho profissional de barba.</p>
+                            <p class="h5 text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                                    <path
+                                        d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
+                                </svg>
+                                18,00
+                            </p>
 
                         </div>
 
@@ -154,9 +228,16 @@
                     <div class="card h-100 card-borda">
                         <img class="card-img-top" src="img/cabelo+barba.jpg" alt="Corte de cabelo e barba">
                         <div class="card-body">
-                            <h2 class="card-title text-center">Cabelo + Barba</h2>
-                            <p class="card-text text-center">Pacote completo de cabelo e barba.</p>
-                            <p class="text-center">R$ 35,00</p>
+                            <h2 class="card-title text-center display-6">Cabelo + Barba</h2>
+                            <p class="card-text text-center lead">Pacote completo de cabelo e barba.</p>
+                            <p class="h5 text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-currency-dollar" viewBox="0 0 16 16">
+                                    <path
+                                        d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z" />
+                                </svg>
+                                35,00
+                            </p>
 
                         </div>
 
@@ -172,7 +253,7 @@
     <!-- CONTATO -->
     <section id="contato" class="contato-color">
         <div class="limite container-fluid">
-            <h2 class="display-3 text-center">Contato</h2>
+            <h2 class="display-1 text-center title">Contato</h2>
             <div class="container">
                 <form class="row">
                     <div class="mb-3">
@@ -232,13 +313,13 @@
                             <label class="checkbox">
                                 <input type="checkbox" checked>
                                 Gostaria de receber nossas promoçõe e novidades por e-mail?
-        
+
                             </label>
 
                         </div>
                         <div class="mb-6">
                             <input class="btn btn-primary btn-tamanho" type="submit" value="Enviar formulário">
-    
+
                         </div>
 
                     </div>
@@ -253,11 +334,24 @@
 
     <!-- RODAPÉ -->
     <footer>
-        <div class="limite rodape-posicao">
-            <img class="rodape-img" src="img/logo-branco.png" alt="Logo em branco da barbearia Alura">
-            <p class="text-rodape-color">
-                &copy; Copyright Barbearia Alura - 2022
-            </p>
+        <div class="limite">
+
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <p class="col-md-4 mb-0 text-white">&copy; Copyright Barbearia Alura - 2022</p>
+
+                    <a href="#"
+                        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                        <img src="img/logo-branco.png" alt="Logo em branco da barbearia Alura" height="140" />
+                    </a>
+
+                    <ul class="nav col-md-4 justify-content-end">
+                        <li class="nav-item"><a href="#home" class="nav-link px-2 text-white">Sobre</a></li>
+                        <li class="nav-item"><a href="#produtos" class="nav-link px-2 text-white">Produtos</a></li>
+                        <li class="nav-item"><a href="#contato" class="nav-link px-2 text-white">Contato</a></li>
+                    </ul>
+                </footer>
+            </div>
 
         </div>
 
