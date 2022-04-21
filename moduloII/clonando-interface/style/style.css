@@ -1,18 +1,39 @@
-header{
-    background-color: #ccc;
+:root {
+    /* CSS HEX */
+    --cultured: #f8f9faff;
+    --cultured-2: #e9ecefff;
+    --gainsboro: #dee2e6ff;
+    --light-gray: #ced4daff;
+    --cadet-blue-crayola: #adb5bdff;
+    --sonic-silver: #6c757dff;
+    --davys-grey: #495057ff;
+    --onyx: #343a40ff;
+    --eerie-black: #212529ff;
+}
+
+body{
+    background-color: var(--onyx);
+}
+
+header {
+    background-color: var(--davys-grey);
     padding: 1.8rem;
 }
 
-.container{
+.container {
     width: 940px;
 
     margin: 0 auto;
-
-    display: flex;
-    justify-content: space-evenly;
 }
 
-h1{
+.menu-center{
+    display: flex;
+    justify-content: space-evenly;
+
+    align-items: center;
+}
+
+.menu-title{
     font-weight: 700;
     font-size: 3rem;
     text-transform: capitalize;
@@ -20,16 +41,19 @@ h1{
     padding: 1rem;
 }
 
-nav{
-    display: flex;
+.menu-title span{
+    color: var(--cultured-2);
+    text-transform: lowercase;
 }
 
-a{
+
+.menu-item {
     text-transform: capitalize;
     font-size: 1.3rem;
 
-    padding: 1rem;
+    padding-right: 1rem;
 }
 
-
-
+.menu-item:hover{
+    color: var(--cultured-2);
+}
