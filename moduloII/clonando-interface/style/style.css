@@ -13,22 +13,27 @@
 
 body{
     background-color: var(--onyx);
+
+    color: var(--cultured);
 }
 
 header {
     background-color: var(--davys-grey);
-    padding: 1.8rem;
+
+    color: var(--gainsboro);
+    padding: .7rem 0;
 }
 
+/* ============= Cabeçalho ==================== */
 .container {
-    width: 940px;
+    width: 1024px;
 
     margin: 0 auto;
 }
 
 .menu-center{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     align-items: center;
 }
@@ -38,11 +43,12 @@ header {
     font-size: 3rem;
     text-transform: capitalize;
 
-    padding: 1rem;
+    color: var(--eerie-black);
+
 }
 
 .menu-title span{
-    color: var(--cultured-2);
+    color: var(--cultured);
     text-transform: lowercase;
 }
 
@@ -51,9 +57,127 @@ header {
     text-transform: capitalize;
     font-size: 1.3rem;
 
-    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 .menu-item:hover{
-    color: var(--cultured-2);
+    color: var(--cultured);
+}
+
+/* ============= padrão ==================== */
+.title{
+    text-align: left;
+    text-transform: capitalize;
+
+    font-weight: 300;
+    font-size: 2.3rem;
+
+    padding-bottom: .5rem;
+}
+
+.text{
+    text-align: justify;
+
+    font-size: 1.3rem;
+}
+
+/* ============= Banner ==================== */
+.home__banner{
+    height: 522px;
+    width: 1009px;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 2rem;
+}
+
+/* Banner Principal */
+
+.banner{
+    width: 73%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    border-radius: 10px;
+
+    background-image: url("../img/gtaIII.jpg");
+    background-size: cover;
+}
+
+.home__banner-texto{
+    width: 35%;
+    padding: 1rem;
+}
+
+.home__banner-botao{
+    padding: 1rem;
+}
+
+.banner-botao{
+    border: none;
+    background: none;
+
+    background-color: var(--davys-grey);
+    border-radius: 10px;
+
+    color: var(--cultured);
+
+    margin-left: .7rem;
+    padding: 1.2rem;
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: .27s ease all;
+}
+
+.banner-botao:hover{
+    background: var(--cultured);
+    color: var(--eerie-black);
+}
+
+/* Lista lateral - Banner*/
+.list-banner{
+    width: 23%;
+
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista li{
+    padding-bottom: .3rem;
+}
+
+.list-title{
+    width: 45%;
+
+    font-size: 1.4rem;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 1px solid var(--cadet-blue-crayola);
+    border-radius: 10px;
+}
+
+.list-item img{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 10px 0 0 10px;
+}
+
+/* ============= Rodapé ==================== */
+footer{
+    background-color: var(--eerie-black);
 }
