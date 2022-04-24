@@ -1,6 +1,6 @@
 
 header {
-    background-color: var(--davys-grey);
+    background-color: var(--bg-rodape);
 
     color: var(--gainsboro);
     padding: .7rem 0;
@@ -9,6 +9,10 @@ header {
 }
 
 /* ============= padrão ==================== */
+p{
+    font-size: .8rem;
+}
+
 .title {
     text-align: left;
     text-transform: capitalize;
@@ -16,7 +20,7 @@ header {
     font-weight: 300;
     font-size: 1.5rem;
 
-    padding-bottom: .5rem;
+    padding: 1.7rem;
 }
 
 .text {
@@ -24,24 +28,17 @@ header {
 
     font-weight: 100;
     font-size: 1.3rem;
+
 }
 
-/* ============= Section Promoção ==================== */
-.container-promocao {
-    padding: 2.7rem;
-
-    background-color: var(--davys-grey);
-
-    border-radius: 5px;
-
-    margin: 2.7rem;
-}
-
-.container-promocao .containe__promocao-img{
-    height: 300px;
+picture{
+    height: 73%;
     width: 100%;
+}
 
-    border: 10px solid #fff;
+.descricao{
+    height: 23%;
+    width: 100%;
 }
 
 /* ============= Rodapé ==================== */

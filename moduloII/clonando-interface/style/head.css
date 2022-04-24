@@ -20,8 +20,13 @@
     text-transform: lowercase;
 }
 
-.nav-aling {
+.nav{
     text-align: center;
+}
+
+.nav-aling {
+    display: flex;
+    flex-direction: row;
 }
 
 .menu-item {

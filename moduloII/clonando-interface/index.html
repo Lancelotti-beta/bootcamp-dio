@@ -11,7 +11,7 @@
     <!-- Owl Carousel -->
     <!--[ <link rel="stylesheet" href="libs/owlCarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/owlCarousel/dist/assets/owl.theme.default.min.css"> ]-->
-    
+
     <!-- arquivos css do Owl Carrosel para usar o loop e nonloop Center -->
     <link rel="stylesheet" href="libs/owlCarousel/docs/assets/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/owlCarousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="style/head.css">
     <link rel="stylesheet" href="style/painel.css">
     <link rel="stylesheet" href="style/destaque.css">
+    <link rel="stylesheet" href="style/promocao.css">
+    <link rel="stylesheet" href="style/free.css">
+    <link rel="stylesheet" href="style/rodape.css">
 
 
     <title>Page Clone</title>
@@ -34,10 +37,18 @@
             <h1 class="menu-title">
                 game.<span>me</span>
             </h1>
-            <nav class="nav nav-aling">
-                <a class="menu-item" href="#">home</a>
-                <a class="menu-item" href="#">destaque</a>
-                <a class="menu-item" href="#">promoção</a>
+            <nav class="menu nav">
+                <ul class="nav-aling">
+                    <li>
+                        <a class="menu-item" href="#">home</a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#">destaque</a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#">promoção</a>
+                    </li>
+                </ul>
             </nav>
         </div>
 
@@ -119,38 +130,63 @@
         </section>
         <section class="destaque">
             <div class="container container-destaque">
+                <h3 class="title">destaque da semana</h3>
                 <div class="loop owl-carousel owl-theme">
                     <div class="item">
-                        <img class="destaque__config-imagem" src="img/gta5.jpg" alt="banner">
+                        <picture>
+                            <img class="destaque__config-imagem" src="img/gta5.jpg" alt="banner">
+
+                        </picture>
                         <span class="destaque__promo--title">gta: v</span>
-                        <div class="destaque__promo">
+                        <div class="destaque__promo descricao">
                             <p class="destaque__promo--color">-30%</p>
                             <p>valor game</p>
                         </div>
 
                     </div>
                     <div class="item">
-                        <img class="destaque__config-imagem" src="img/ac-china.jpg" alt="banner">
+                        <picture>
+                            <img class="destaque__config-imagem" src="img/ac-china.jpg" alt="banner">
+
+                        </picture>
                         <span class="destaque__promo--title">assassin's creed: chornicles</span>
-                        <div class="destaque__promo">
+                        <div class="destaque__promo descricao">
                             <p class="destaque__promo--color">-30%</p>
                             <p>valor game</p>
                         </div>
 
                     </div>
                     <div class="item">
-                        <img class="destaque__config-imagem" src="img/gwent.jpg" alt="banner">
+                        <picture>
+                            <img class="destaque__config-imagem" src="img/gwent.jpg" alt="banner">
+
+                        </picture>
                         <span class="destaque__promo--title">gwent</span>
-                        <div class="destaque__promo">
+                        <div class="destaque__promo descricao">
                             <p class="destaque__promo--color">-30%</p>
                             <p>valor game</p>
                         </div>
 
                     </div>
                     <div class="item">
-                        <img class="destaque__config-imagem" src="img/dmc5.jpg" alt="banner">
+                        <picture>
+                            <img class="destaque__config-imagem" src="img/dmc5.jpg" alt="banner">
+
+                        </picture>
                         <span class="destaque__promo--title">decil may cry 5</span>
-                        <div class="destaque__promo">
+                        <div class="destaque__promo descricao">
+                            <p class="destaque__promo--color">-30%</p>
+                            <p>valor game</p>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <picture>
+                            <img class="destaque__config-imagem" src="img/gta3.jpg" alt="banner">
+
+                        </picture>
+                        <span class="destaque__promo--title">gta: iii</span>
+                        <div class="destaque__promo descricao">
                             <p class="destaque__promo--color">-30%</p>
                             <p>valor game</p>
                         </div>
@@ -164,26 +200,57 @@
 
         <section class="promocao">
             <div class="container container-promocao">
+                <h3 class="title">promoção da semana</h3>
                 <div class="nonloop owl-carousel">
-                    <div class="item">
-                        <img class="containe__promocao-img" src="img/dmcV.png" alt="banner">
-                        <h3>title</h3>
+                    <div class="item promocao-item">
+                        <picture>
+                            <img class="containe__promocao-img" src="img/dmcV.png" alt="banner">
+
+                        </picture>
+                        <div class="container__promo-texto descricao">
+                            <h3 class="title-promo">devil may cry v - especial edit</h3>
+                            <p class="promocao__promo--color">27% desc.</p>
+                        </div>
                     </div>
-                    <div class="item">
-                        <img class="containe__promocao-img" src="img/ac3.jpg" alt="banner">
-                        <h3>title</h3>
+                    <div class="item promocao-item">
+                        <picture>
+                            <img class="containe__promocao-img" src="img/gtaV.jpg" alt="banner">
+
+                        </picture>
+                        <div class="container__promo-texto descricao">
+                            <h3 class="title-promo">grand theft auto v</h3>
+                            <p class="promocao__promo--color">10% desc.</p>
+                        </div>
                     </div>
-                    <div class="item">
-                        <img class="containe__promocao-img" src="img/gtaIII.jpg" alt="banner">
-                        <h3>title</h3>
+                    <div class="item promocao-item">
+                        <picture>
+                            <img class="containe__promocao-img" src="img/gtaIII.jpg" alt="banner">
+
+                        </picture>
+                        <div class="container__promo-texto descricao">
+                            <h3 class="title-promo">grand theft auto iii</h3>
+                            <p class="promocao__promo--color">70% desc.</p>
+                        </div>
                     </div>
-                    <div class="item">
-                        <img class="containe__promocao-img" src="img/ac3.jpg" alt="banner">
-                        <h3>title</h3>
+                    <div class="item promocao-item">
+                        <picture>
+                            <img class="containe__promocao-img" src="img/ac3.jpg" alt="banner">
+
+                        </picture>
+                        <div class="container__promo-texto descricao">
+                            <h3 class="title-promo">assassin's creed: iii - delux</h3>
+                            <p class="promocao__promo--color">10% desc.</p>
+                        </div>
                     </div>
-                    <div class="item">
-                        <img class="containe__promocao-img" src="img/gtaIII.jpg" alt="banner">
-                        <h3>title</h3>
+                    <div class="item promocao-item">
+                        <picture>
+                            <img class="containe__promocao-img" src="img/gtaIII.jpg" alt="banner">
+
+                        </picture>
+                        <div class="container__promo-texto descricao">
+                            <h3 class="title-promo">grand theft auto iii - especial edit</h3>
+                            <p class="promocao__promo--color">50% desc.</p>
+                        </div>
                     </div>
 
 
@@ -193,19 +260,82 @@
             </div>
         </section>
 
+        <section class="gratis">
+            <div class="container container__gratis">
+                <h3 class="title">Jogos Gratis</h3>
+                <div class="nonloop-rtl owl-carousel">
+                    <div class="item free_flex">
+                        <picture>
+                            <img class="free-img" src="img/gta5.jpg" alt="banner">
+
+                        </picture>
+                        <div class="descricao-free">
+                            <a href="#" class="game__free">Free</a>
+
+                        </div>
+
+                    </div>
+                    <div class="item free_flex">
+                        <picture>
+                            <img class="free-img" src="img/gta3.jpg" alt="banner">
+
+                        </picture>
+                        <div class="descricao-free">
+                            <a href="#" class="game__free">Free</a>
+
+                        </div>
+
+                    </div>
+                    <div class="item free_flex">
+                        <picture>
+                            <img class="free-img" src="img/gta5.jpg" alt="banner">
+
+                        </picture>
+                        <div class="descricao-free">
+                            <a href="#" class="game__free">Free</a>
+
+                        </div>
+
+                    </div>
+                    <div class="item free_flex">
+                        <picture>
+                            <img class="free-img" src="img/gta3.jpg" alt="banner">
+
+                        </picture>
+                        <div class="descricao-free">
+                            <a href="#" class="game__free">Free</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
     <footer>
-        <div class="container">
-
+        <div class="rodape container">
+            <ul class="rodape__social">
+                <li><a href="#" class="rodape__midia"><img src="img/facebook.png" alt="Icone do facebook"></a></li>
+                <li><a href="#" class="rodape__midia"><img src="img/twitter.png" alt="Icone do twitter"></a></li>
+                <li><a href="#" class="rodape__midia"><img src="img/instagram.png" alt="Icone do instagram"></a></li>
+            </ul>
+            <nav>
+                <ul class="rodape__navegacao">
+                    <li class="rodape__link"><a href="#">home</a></li>
+                    <li class="rodape__link"><a href="#">destaque</a></li>
+                    <li class="rodape__link"><a href="#">promoção</a></li>
+                </ul>
+            </nav>
         </div>
     </footer>
 
     <!-- Owl Carousel -->
     <script type="text/javascript" src="libs/owlCarousel/docs/assets/vendors/jquery.min.js">
     </script>
-    
-    
-        <!-- arquivos js do Owl Carrosel para usar o owl-carrosel slide -->
+
+
+    <!-- arquivos js do Owl Carrosel para usar o owl-carrosel slide -->
     <!-- 
         <script type="text/javascript" src="libs/owlCarousel/docs/assets/vendors/highlight.js"></script>
         <script type="text/javascript" src="libs/owlCarousel/docs/assets/js/app.js"></script> 

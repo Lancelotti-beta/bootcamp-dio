@@ -1,0 +1,37 @@
+.gratis{
+    margin-top: 2.3rem;
+    margin-bottom: 2rem;
+}
+
+
+.free_flex{
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.free-img{
+    height: 100%;
+    width: 100%;
+}
+
+.descricao-free{
+    height: 10%;
+    width: 100%;
+}
+
+.game__free{
+    display: block;
+    
+    background-color: var(--destaque-botao);
+    border-radius: 2px;
+    
+    padding: .5rem 0;
+    
+    font-weight: 300;
+    font-size: 1rem;
+    
+    text-align: center;
+    text-decoration: none;
+}
