@@ -37,9 +37,11 @@ header {
     margin: 2.7rem;
 }
 
-.container-promocao .item img{
-    height: auto;
+.container-promocao .containe__promocao-img{
+    height: 300px;
     width: 100%;
+
+    border: 10px solid #fff;
 }
 
 /* ============= Rodapé ==================== */
