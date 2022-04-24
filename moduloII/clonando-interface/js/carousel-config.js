@@ -29,7 +29,7 @@ $('.owl-carousel').owlCarousel({
 
 
 //Section Promoção
-$('.nonloop').owlCarousel({
+$('.nonloop .owl-carousel').owlCarousel({
     center: true,
     items: 2,
     loop: false,
