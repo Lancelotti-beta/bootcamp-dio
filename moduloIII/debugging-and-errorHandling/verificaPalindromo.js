@@ -1,9 +1,9 @@
-export default function chekPalindromo (string) {
-    if (!string || Number) throw 'String Inválida';
+export function chekPalindromo (string) {
+    if (!string) throw 'String Inválida';
 
     return string === string.split('').reverse().join('');
 }
 
-//chekPalindromo('tennet');
+chekPalindromo('tennet');
 
-//console.log(chekPalindromo(1));
+console.log(chekPalindromo(1));

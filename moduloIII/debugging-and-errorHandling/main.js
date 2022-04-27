@@ -1,8 +1,8 @@
-import verificaPalindromo from 'verificaPalindromo';
+import {chekPalindromo} from './verificaPalindromo.js';
 
 function tryCatchExemplo(string) {
     try{
-        verificaPalindromo(string);
+        chekPalindromo(string);
     }
     catch(e) {
         console.log(e);
